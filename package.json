@@ -1,9 +1,10 @@
 {
-  "name": "frontend-project-lvl1",
-  "version": "1.0.0",
+  "name": "frontend-p-lvl1",
+  "version": "0.0.1",
   "main": "src/index.js",
   "type": "module",
-  "dependencies": {
-    
-  }
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {}
 }
