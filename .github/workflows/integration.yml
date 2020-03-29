@@ -1,0 +1,13 @@
+name: brain-game
+
+on: push
+
+strategy:
+  matrix:
+    node-version: [13.x]
+
+steps:
+  name: run linter
+  # Run Linter
+  run:|
+    make lint
