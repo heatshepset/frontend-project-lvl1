@@ -10,7 +10,6 @@ jobs:
         node-version: [13.x]
 
     steps:
-      - name: run linter
-      # Run Linter
+      - name: Run linter
       run: |
         make lint
