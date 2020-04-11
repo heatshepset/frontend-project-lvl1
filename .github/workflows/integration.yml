@@ -9,5 +9,5 @@ strategy:
 steps:
   name: run linter
   # Run Linter
-  run:|
+  run: |
     make lint
