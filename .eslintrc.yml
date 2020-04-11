@@ -1,3 +1,15 @@
-rules:
-  no-console: 0
-  import/extensions: 0
+
+    env:
+        node: true
+
+
+    parser: babel-eslint
+
+
+    extends:
+        - 'eslint:recommended'
+
+
+    rules:
+        no-console: 0
+        import/extensions: 0
