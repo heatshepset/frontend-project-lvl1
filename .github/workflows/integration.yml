@@ -1,6 +1,7 @@
-name: brain-game
+name: Brain-games
 
-on: push
+on:
+  - push
 
 jobs:
   build:
